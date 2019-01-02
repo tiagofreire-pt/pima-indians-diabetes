@@ -1,6 +1,6 @@
 import numpy as np # para processar dados matemáticos e cálculo
 from keras.models import Sequential, model_from_json
-from keras.layers import Dense, Dropout
+from keras.layers import Dense
 import sys # para fazer os inputs do utilizador
 import matplotlib.pyplot as plt
 from keras.models import load_model
@@ -10,8 +10,8 @@ ficheiro_csv_teste = 'pima-indians-diabetes_teste_v1_random_normalizado.csv'
 ficheiro_model_json = 'model.json'
 ficheiro_weights_h5 = 'weights.h5'
 
-EPOCH_NUMBER = 10000
-BATCH_SIZE = 10
+EPOCH_NUMBER = 10000 # número de passagens recursivas da rede neural sobre o dataset
+BATCH_SIZE = 10 # número de inputs do dataset agrupados por cada iteração
 
 def treinar_rede(ficheiro_csv_treino, ficheiro_model_json, ficheiro_weights_h5, epoch_number, batch_size):
  
