@@ -10,4 +10,5 @@ Escrito e testado em Python 3.6, com Keras 2.2.4 e TensorFlow 1.12.0.
 O código está comentado para facilitar a leitura e aprendizagem.
 
 Fonte #1: https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/.
+
 Fonte #2: https://www.kaggle.com/uciml/pima-indians-diabetes-database.
