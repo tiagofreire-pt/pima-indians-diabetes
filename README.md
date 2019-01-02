@@ -1,5 +1,5 @@
 # pima-indians-diabetes
-Demonstração de uma rede neural aplicada à deteção de diabetes, com base em dados biométricos.
+Demonstração de uma rede neural aplicada à deteção de diabetes, com base em dados de diagnóstico.
 
 Trata-se de uma rede neural com a estrutura de 5 camadas: 1 de entrada (15 neurónios), 3 intermédias (10, 8 e 10 neurónios, respectivamente), 1 de saída (1 neurónio). Em todas as camadas foi usada a função de ativação sigmoid(): https://en.wikipedia.org/wiki/Sigmoid_function.
 
